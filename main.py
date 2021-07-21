@@ -59,5 +59,3 @@ def generate_text(input: TextGenerationInput) -> TextGenerationOutput:
     return TextGenerationOutput(generated_text=res[0]["generated_text"])
 
 
-if __name__ == '__main__':
-    generate_text(TextGenerationInput)
