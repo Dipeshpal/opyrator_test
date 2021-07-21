@@ -60,4 +60,4 @@ def generate_text(input: TextGenerationInput) -> TextGenerationOutput:
 
 
 if __name__ == '__main__':
-    generate_text("Hello")
+    generate_text(TextGenerationInput, TextGenerationOutput)
