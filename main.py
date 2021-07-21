@@ -57,3 +57,7 @@ def generate_text(input: TextGenerationInput) -> TextGenerationOutput:
         top_k=input.top_k,
     )
     return TextGenerationOutput(generated_text=res[0]["generated_text"])
+
+
+if __name__ == '__main__':
+    generate_text()
