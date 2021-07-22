@@ -1,0 +1,1 @@
+web: opyrator launch-ui main:generate_text --port 5000
